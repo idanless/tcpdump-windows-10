@@ -7,4 +7,22 @@
 <p><span style="color: #00ff00;">1. you must have Admin runnig this sofware so first runnig as Admin</span></p>
 <p><span style="color: #00ff00;">*press Enter to select the card</span></p>
 <p><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Main.JPG?raw=true" alt="" /></p>
+<p style="text-align: left;">2. set filter <span style="color: #00ff00;"> select by space button you can set "multi filter"&nbsp;</span></p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter.JPG?raw=true" alt="" width="1317" height="260" /></p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter2.JPG?raw=true" alt="" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">3. how show the traffic live or save to pcap</p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Recoded.JPG?raw=true" alt="" /></p>
+<p style="text-align: left;"><span style="text-decoration: underline;"><strong>live {like tcpdump}:</strong></span></p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/livetraffic.JPG?raw=true" alt="" width="1071" height="516" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">save to pcap:</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
