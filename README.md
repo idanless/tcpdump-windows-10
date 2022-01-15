@@ -8,7 +8,7 @@
 <p><span style="color: #00ff00;">*press Enter to select the card</span></p>
 <p><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Main.JPG?raw=true" alt="" /></p>
 <p style="text-align: left;">2. set filter <span style="color: #00ff00;"> select by space button you can set "multi filter"&nbsp;</span></p>
-<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter.JPG?raw=true" alt="" width="1317" height="260" /></p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter1.JPG?raw=true" alt="" width="1317" height="260" /></p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter2.JPG?raw=true" alt="" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">3. how show the traffic live or save to pcap</p>
@@ -17,11 +17,19 @@
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/livetraffic.JPG?raw=true" alt="" width="1071" height="516" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">save to pcap:</p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/status.JPG?raw=true" alt="" width="947" height="500" /></p>
 <p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/pcapfile.JPG?raw=true" alt="" /></p>
+<p style="text-align: left;">you will see live counters and press ctrl+c</p>
+<p style="text-align: left;">windows will be open with the pcap file :)</p>
+<p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/openpcap.JPG?raw=true" alt="" /></p>
 <p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="text-decoration: underline;"><strong>to do list:</strong></span></p>
+<ul>
+<li style="text-align: left;">make it as class</li>
+<li style="text-align: left;">support wifi&nbsp;</li>
+<li style="text-align: left;">make a pip library</li>
+</ul>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
