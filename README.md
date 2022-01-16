@@ -1,27 +1,27 @@
 <p style="text-align: center;"><span style="text-decoration: underline;"><strong>Tcpdump on Windows 10</strong></span></p>
 <p style="text-align: center;"><em>wrapper&nbsp; <a href="https://docs.microsoft.com/en-us/windows-server/networking/technologies/pktmon/pktmon">microsoft pktmon</a></em></p>
-<p style="text-align: center;"><span style="color: #ff0000;">this cover only&nbsp; network level 4 this mean you will not see</span></p>
-<p style="text-align: center;"><span style="color: #ff0000;">ARP\DHCP&nbsp;</span></p>
-<p style="text-align: left;"><span style="color: #0000ff;"><span style="color: #0000ff;"><span style="text-align: center; color: #0000ff;"><span style="text-decoration: underline;"><strong><span style="color: #ff0000; text-decoration: underline;">background:</span></strong></span></span></span></span></p>
-<p>we as security \ network&nbsp; need to help users debug network \ app issue and check if this related to us most the time the users dont know how work with "wireshark" and for basic task they not needed so i build basic "tcpdump " based on Pktmon built in windows</p>
-<p><span style="color: #00ff00;">1. you must have Admin runnig this sofware so first runnig as Admin</span></p>
-<p><span style="color: #00ff00;">*press Enter to select the card</span></p>
+<p style="text-align: center;">Note: this sniffer project can capture only packets from layer 4 of the OSI model (segments), as a result you will not see ARP for example, also DHCP packets cannot be captured.</p>
+<p style="text-align: center;">&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>About:</strong></span></p>
+<p>As a security \ network guy you need to assist IT, programers or DevOps in debug their app or config from a network perspective to check if the issues are related to the network. Most of the time the they don't have knowledge in how to activate or operate "Wireshark" sniffer, also install "Wireshark" is not easy and not always allowed, for those reasons they need a basic and easy tool like linux "tcpdump" task. This is a windows based on Pktmon "tcpdump", enjoy.</p>
+<p><span style="color: #00ff00;">1. First, you must have Admin privileges, so run the project as Admin.</span></p>
+<p>*press Enter to select from which network card do you want to capture packets.</p>
 <p><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Main.JPG?raw=true" alt="" /></p>
-<p style="text-align: left;">2. set filter <span style="color: #00ff00;"> select by space button you can set "multi filter"&nbsp;</span></p>
+<p style="text-align: left;">2. set a filter, use space button to select which to apply, you can select multiple filters together.</p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter1.JPG?raw=true" alt="" width="1317" height="260" /></p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Filter2.JPG?raw=true" alt="" /></p>
 <p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">3. how show the traffic live or save to pcap</p>
+<p style="text-align: left;">3. You can see the output in one of two options, live or as a pcap file.</p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/Recoded.JPG?raw=true" alt="" /></p>
 <p style="text-align: left;"><span style="text-decoration: underline;"><strong>live {like tcpdump}:</strong></span></p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/livetraffic.JPG?raw=true" alt="" width="1071" height="516" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">save to pcap:</p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/status.JPG?raw=true" alt="" width="947" height="500" /></p>
-<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Now you will see counters showing live packets captured, press ctrl+c to stop the capture and get the pcap file.</p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/pcapfile.JPG?raw=true" alt="" /></p>
-<p style="text-align: left;">you will see live counters and press ctrl+c</p>
-<p style="text-align: left;">windows will be open with the pcap file :)</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">windows will be open the directory with the pcap file waiting :)</p>
 <p style="text-align: left;"><img src="https://github.com/idanless/tcpdump-windows-10/blob/main/openpcap.JPG?raw=true" alt="" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;"><span style="text-decoration: underline;"><strong>to do list:</strong></span></p>
