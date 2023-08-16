@@ -62,16 +62,24 @@ ipcompile = "^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$"
 filter_cmd = []
 id_inter = ''
 
+
 def Counters_Parser(data):
-    os.system('cls')
-    if len(data) != 0:
-        PacketRx = data.split('                ')[1].split()[0]
-        BytesRx = data.split('                ')[1].split()[1]
-        PacketTx = data.split('                ')[2].split()[0]
-        BytesTx = data.split('                ')[2].split()[1]
-        filter_status()
-        print('to Get the pcap press ctrl+c')
-        print(f'PacketRx {PacketRx} PacketTx {PacketTx} BytesRx {BytesRx} BytesTx {BytesTx}')
+    try:
+        os.system('cls')
+        data_parts = data.split('                ')
+        if len(data_parts) >= 3:
+            PacketRx = data_parts[1].split()[0]
+            BytesRx = data_parts[1].split()[1]
+            PacketTx = data_parts[2].split()[0]
+            BytesTx = data_parts[2].split()[1]
+
+            filter_status()
+            print('To get the pcap press ctrl+c')
+            print(f'PacketRx {PacketRx} PacketTx {PacketTx} BytesRx {BytesRx} BytesTx {BytesTx}')
+        else:
+            print('To get the pcap press ctrl+c')
+    except Exception as e:
+        print('To get the pcap press ctrl+c')
 
 
 
